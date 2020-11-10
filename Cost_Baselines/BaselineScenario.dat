@@ -1,0 +1,40 @@
+# Baseline Cost Scenario
+
+# capital costs
+param NGCapEx := 0.138 ; # $/kW for combined cycle
+param PVCapEx := 0.512 ; # $/kW
+param BatCapEx := 305 ; # $/kW
+param ZnCapEx := 1120 ; #
+param ZnStorCapEx := 0.0001 ; #
+param FCCapEx := 0.625 ; # $/kW
+param WindCapEx := 0.194 ; # $/kW
+
+# fixed costs
+param NGfom := 0.0157 ; #
+param PVfom := 0.0076 ; #
+param Batfom := 10 ; # 1% of battery CapEx
+param ZnProdfom := 0 ; #
+param ZnStorfom := 1 ; #
+param ZnLaborfom := 24*20 ; # fixed labor costs scale with plant size
+param FCfom := 0.0056 ; #
+param Windfom := 0.0358 ; #
+
+# variable O&M
+param NGvom := 0.0025 ; # CCGT
+param FCvom := 0.0473 ; 
+param Batvom := 0.03 ; 
+
+# efficiencies
+param NGeff := 0.44 ;
+param Bateff := 0.95 ;
+param Zneff := 0.208 ; # 17.3 GJ/ton ==> 1 kg Zn/4.805 kWh
+param PEMeff := 1.138 ;
+
+# other
+param elecPriceWholesale := 0.035 ;
+param elecPriceIndustrial := 0.06 ;
+param elecPricePremiumStorage := 0.05 ; # premium to batteries for discharging back into grid
+param refinedZincPremium := 0.08 ; # $/kg premium on SHG zinc
+param lostLoadCost := 10000 ; # cost of lost load is very high
+
+

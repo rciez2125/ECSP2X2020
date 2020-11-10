@@ -1,0 +1,22 @@
+{
+	"solar_resource_file" : "/Users/practice/SAM Downloaded Weather Files/corpus_christi_tx_27.796416_-97.404131_psmv3_60_tmy.csv",
+	"system_capacity" : 1500,
+	"module_type" : 0,
+	"dc_ac_ratio" : 1.2000000476837158,
+	"inv_eff" : 96,
+	"losses" : 14.075660705566406,
+	"array_type" : 0,
+	"tilt" : 27.809999465942383,
+	"azimuth" : 180,
+	"gcr" : 0.40000000596046448,
+	"adjust:constant" : 0,
+	"compute_module_0" : "pvwattsv5",
+	"metric_0" : "annual_energy",
+	"metric_0_label" : "Annual energy (year 1)",
+	"metric_1" : "capacity_factor",
+	"metric_1_label" : "Capacity factor (year 1)",
+	"metric_2" : "kwh_per_kw",
+	"metric_2_label" : "Energy yield (year 1)",
+	"number_compute_modules" : 1,
+	"number_metrics" : 3
+}
